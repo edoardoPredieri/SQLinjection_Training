@@ -1,20 +1,20 @@
-##Before starting type:
+## Before starting type:
 
-'''
+```
 $ sudo apt-get install nodejs
 $ sudo apt-get install npm
 $ npm install mysql
 $ npm install express
 $ npm install body-parser
 Oper init1 and init2 and modify the variable "password" at the top of code
-'''
+```
 
-##To start type:
-'''
+## To start type:
+```
 $ nodejs init1.js
 $ nodejs init2.js
 $ nodejs index.js
-'''
+```
 Enjoy
 
 Thanks for downloading my application by Edoardo
