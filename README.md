@@ -10,7 +10,7 @@ sudo service mysql restart
 ```
 $ sudo apt-get install nodejs
 $ sudo apt-get install npm
-$ npm install mysql
+$ npm install mysql (if no-response $ npm config set strict-ssl false)
 $ npm install express
 $ npm install body-parser
 $ sudo service mysql restart
