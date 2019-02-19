@@ -59,7 +59,7 @@ con.connect(function(err) {
             else{
                 reply+="<body>";
                 for (i = 0; i < result.length; i++) {
-                reply+="<label>Failed to login as "+String(result[i].passw)+"</label>";
+                reply+="<label>Failed to login as "+String(result[i].name)+"</label>";
                 reply+="<br>"
                 }
                 reply+="</body>";
