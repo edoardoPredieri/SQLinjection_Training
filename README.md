@@ -1,11 +1,19 @@
 ## Before starting type:
 
+If you don't have mysql type:
+```
+$ sudo apt-get install mysql-server
+```
+
+sudo service mysql restart
+
 ```
 $ sudo apt-get install nodejs
 $ sudo apt-get install npm
 $ npm install mysql
 $ npm install express
 $ npm install body-parser
+$ sudo service mysql restart
 Oper init1 and init2 and modify the variable "password" at the top of code
 ```
 
