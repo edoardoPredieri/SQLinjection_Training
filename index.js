@@ -3,7 +3,6 @@ var mysql = require('mysql');
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "biar",
   database: "hackdb"
 });
 
@@ -51,7 +50,7 @@ con.connect(function(err) {
             throw err
         }
         else{
-            console.log(result);
+            //console.log(result);
             if(String(result[0].name)==username && String(result[0].passw)==password){
                 reply+="connected!!!";
                 res.send(reply);
